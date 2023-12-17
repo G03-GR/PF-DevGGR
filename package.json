@@ -10,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0",
+    "jest": "^27.4.5",
     "jsdom": "^23.0.1"
   }
+  "jest": {
+  "testEnvironment": "node",
+  "transform": {}
+}
+
 }
